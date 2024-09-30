@@ -19,7 +19,7 @@ html {
 }
 * {
   font-feature-settings: var(--inter-features) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
 }
 /*Body Font*/
 .sqsrte-small,
@@ -28,7 +28,7 @@ p,
 .header-nav-item {
   font-weight: var(--body-weight) !important;
   font-feature-settings: var(--inter-features) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
 }
 /*Heading Weights*/
 h1,
@@ -132,7 +132,7 @@ p a em {
   p a em:after {
     font-weight: var(--body-weight) !important;
     font-feature-settings: var(--inter-features) !important;
-    font-family: var(--inter), var(--body), sans-serif !important;
+    font-family: var(--inter) !important;
     content: "→";
     font-weight: 400!important;
     position: absolute;
@@ -162,7 +162,7 @@ h3 a strong {
   h3 a strong:after {
     font-weight: var(--body-weight) !important;
     font-feature-settings: var(--inter-features) !important;
-    font-family: var(--inter), var(--body), sans-serif !important;
+    font-family: var(--inter) !important;
     content: "→";
     padding-left: 2px;
     position: absolute;
@@ -199,7 +199,7 @@ body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-
 }
 /*Folder Title Chevron*/
 .header-nav-folder-title:after {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   z-index: -1 !important;
   position: absolute!important;
   right: 0!important;
@@ -284,7 +284,7 @@ body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-
 /*Mobile Nav Item*/
 .header-menu-nav-item a {
   font-weight: var(--mobile-nav-weight) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   font-size: var(--mobile-nav-size);
   letter-spacing: -0.015em;
@@ -293,7 +293,7 @@ body:not(.header--menu-open) .header-nav-folder-item--active .header-nav-folder-
 /*Mobile Menu Button*/
 .header-menu-cta a {
   font-weight: var(--mobile-nav-weight) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   font-size: 1rem!important;
   padding: 14px!important;
@@ -329,7 +329,7 @@ button[type="submit"],
   user-select: none!important;
   overflow: hidden!important;
   font-weight: var(--button-weight) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   display: flex!important;
   align-items: center!important;
@@ -348,7 +348,7 @@ button[type="submit"]:after,
 .join-button:after,
 .course-item__next-lesson-button:after {
   content: "→";
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   font-weight: var(--button-weight) !important;
   line-height: 0!important;
@@ -441,12 +441,12 @@ button[type="submit"]:after,
 /*Secondary Main*/
 .sqs-button-element--secondary {
   background: transparent!important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
 }
 /*Accordion Title*/
 .accordion-item__title {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-weight: var(--heading-weight);
 }
 /*Accordion Item*/
@@ -622,7 +622,7 @@ button[type="submit"]:after,
   margin-right: auto;
 }
 .tweak-blog-item-width-narrow .blog-meta-item a {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   border-radius: 50px!important;
   background: var(--dark);
@@ -652,7 +652,7 @@ button[type="submit"]:after,
   justify-content: center;
 }
 .tweak-blog-item-width-narrow time.blog-meta-item--date span {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   font-size: 14px!important;
   color: var(--accent);
@@ -791,7 +791,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 .sqs-block-summary-v2 .summary-block-setting-design-list {
   -webkit-animation: 0.8s ease 0s normal forwards 1 flexload !important;
   animation: 0.8s ease 0s normal forwards 1 flexload !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   max-width: var(--blog-width) !important;
   margin-left: auto!important;
@@ -830,7 +830,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 .sqs-block-summary-v2 .summary-block-setting-design-list .sqs-gallery-design-list .summary-title a {
   width: 100%!important;
   line-height: inherit!important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   font-weight: var(--body-weight) !important;
   align-items: center;
@@ -841,7 +841,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
   position: absolute;
   opacity: 0;
   margin-left: -10px;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-weight: 400;
   content: "→";
   transition: var(--trans);
@@ -879,7 +879,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 .sqs-block-summary-v2 .summary-block-setting-design-list .sqs-gallery-design-list .summary-metadata-item--cats,
 .sqs-block-summary-v2 .summary-block-setting-design-list .sqs-gallery-design-list .summary-metadata-item.summary-metadata-item--date,
 .sqs-block-summary-v2 .summary-block-setting-design-list .sqs-gallery-design-list .summary-metadata-item--tags {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   border-radius: 4px!important;
   background: var(--secondary-color);
   border: none;
@@ -1125,7 +1125,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 }
 /*Field Title*/
 .sqs-block-form .field-list .title {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   position: relative!important;
   width: fit-content !important;
@@ -1137,7 +1137,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 .sqs-block-form radio,
 .sqs-block-form checkbox,
 .sqs-block-form .caption-text {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   transition: var(--trans) !important;
   outline-offset: 3px!important;
@@ -1154,7 +1154,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 .sqs-block-form ::placeholder,
 .sqs-block-form select.show-placeholder,
 .sqs-block-form .form-input-prefix {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   color: var(--tweak-form-block-stroke-color) !important;
   opacity: 1!important;
@@ -1162,7 +1162,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 /*Replace "reqired" with "*" */
 .form-wrapper .field-list .description.required {
   visibility: hidden;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   font-size: 0!important;
 }
@@ -1184,7 +1184,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 @media screen and (min-width: 767px) {
   .list-item-content__description {
     font-feature-settings: var(--inter-features) !important;
-    font-family: var(--inter), var(--body), sans-serif !important;
+    font-family: var(--inter) !important;
     font-weight: var(--heading-weight);
     display: flex;
     position: absolute;
@@ -1197,7 +1197,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 }
 .list-item-content__description {
   font-feature-settings: var(--inter-features) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
 }
 /*Add Image Overlay*/
 .slide.list-item img {
@@ -1363,11 +1363,11 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 }
 .blog-basic-grid .passthrough-link:after {
   transition: var(--trans) !important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
 }
 .blog-basic-grid .blog-categories {
   pointer-events: none!important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   border-radius: 50px!important;
   background: var(--light);
@@ -1391,7 +1391,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
 }
 .blog-basic-grid .blog-excerpt p {
   font-weight: 400!important;
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   line-height: 1.5 !important;
   font-size: 13px!important;
@@ -1402,7 +1402,7 @@ body .sqs-block-summary-v2 .summary-block-setting-design-list .summary-item {
   -webkit-box-orient: vertical;
 }
 .blog-basic-grid .blog-date {
-  font-family: var(--inter), var(--body), sans-serif !important;
+  font-family: var(--inter) !important;
   font-feature-settings: var(--inter-features);
   letter-spacing: 0.01em !important;
   font-weight: 400;
